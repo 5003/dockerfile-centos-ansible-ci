@@ -9,6 +9,7 @@ RUN yum clean all && \
                             python-paramiko \
                             python-setuptools \
                             python-pip \
+                            make \
                             git && \
     yum clean all
 RUN sed --in-place '/Defaults\s*requiretty/d' /etc/sudoers
