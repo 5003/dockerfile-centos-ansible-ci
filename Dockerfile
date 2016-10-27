@@ -9,6 +9,7 @@ RUN yum clean all && \
                             python-paramiko \
                             python-setuptools \
                             python-pip \
+                            sshpass \
                             make \
                             git && \
     yum clean all
